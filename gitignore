@@ -1,0 +1,16 @@
+# Secrets - never commit these
+.env
+
+# Python environment and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Your own trading data and logs
+journal/
+data/
+*.log
+
+# Editor settings
+.vscode/

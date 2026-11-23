@@ -1,0 +1,6 @@
+pandas>=2.0.0
+python-dotenv>=1.0.0
+MetaTrader5>=5.0.45  # Windows only
+anthropic>=0.40.0    # LLM trade reviewer (optional: the bot trades and journals without it)
+# tvDatafeed is only needed if you switch back to the TradingView data connector:
+# pip install --upgrade --no-cache-dir git+https://github.com/rongardF/tvdatafeed.git
